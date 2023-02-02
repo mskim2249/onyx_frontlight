@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Front Light</string>
+    <string name="long_shortcut_1">Increase display brightness</string>
+    <string name="short_shortcut_1">Light Up</string>
+    <string name="long_shortcut_2">Decrease display brightness</string>
+    <string name="short_shortcut_2">Light Down</string>
+    <string name="manage_shortcuts_disabled">disabled1</string>
+
+</resources>

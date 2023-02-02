@@ -1,0 +1,37 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.onyxtest.frontlight'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.onyxtest.frontlight"
+        minSdk 19
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+//    implementation 'com.onyx.android.sdk:onyxsdk-base:1.6.40'
+    implementation 'com.onyx.android.sdk:onyxsdk-device:1.2.19'
+
+}

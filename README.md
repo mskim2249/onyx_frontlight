@@ -21,11 +21,11 @@ Key mapper -> Actions -> Add action -> Launch app shortcut -> Increase display b
 Key mapper -> Actions -> Add action -> Send Intent
 
 
- - Description : Increase brightness
+ - Description : Increase brightness ( 혹은 Decrease brightness)
 
  - Broadcast receiver 선택
 
- - Action : increase
+ - Action : increase (혹은 decrease)
 
  - Flags : 32
 

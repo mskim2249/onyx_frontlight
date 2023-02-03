@@ -4,6 +4,10 @@ Onyx 기기에서 key mapper 어플로 화면 밝기(front light)를 조절할 �
 
 ## Usage
 
+<https://github.com/mskim2249/onyx_frontlight/releases/download/v1.0/onyx_frontlight.apk>
+
+위 링크로 APK 파일 다운로드 후 오닉스 기기에 설치
+
 ### 방법1
 
 어플 설치 후

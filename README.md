@@ -26,3 +26,7 @@ Key mapper -> Actions -> Add action -> Send Intent
  - Flags : 32
 
  - Package : com.onyxtest.frontlight
+
+# Uninstall
+
+홈 화면의 상단 우측 아이콘 -> 애플리케이션 -> 앱 관리 -> Front Light 선택 -> 
